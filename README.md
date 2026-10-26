@@ -9,10 +9,7 @@ This repository focuses on low-level memory management, pointer arithmetic, and 
 * `launch_abort_sim.c` - Pre-launch sensor polling loop with threshold-based abort flags.
 * `delta_v_calculator.c` - Scalar Delta-V calculation for orbital trajectory corrections.
 * `gnc_attitude_updater.c` - In-place state vector (X, Y, Z) updates using pointers (call-by-reference).
-
-## Planned
-
-* `telemetry_serializer.c` - Data framing with C structs and bit-fields for bandwidth optimization.
+* `telemetry_packet_serializer.c` - Data framing with C structs and bit-fields for bandwidth optimization.
 * `flight_logger.c` - Sequential and binary file I/O for blackbox sensor logging.
 
 ## Build
